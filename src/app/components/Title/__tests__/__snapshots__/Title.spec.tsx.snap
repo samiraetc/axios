@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title /> should render 1`] = `
+<DocumentFragment>
+  <div>
+    Olá mundo
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Title /> should render and api 404 1`] = `
+<DocumentFragment>
+  <div>
+    Olá mundo
+  </div>
+</DocumentFragment>
+`;
