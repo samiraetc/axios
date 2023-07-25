@@ -2,8 +2,8 @@ import { render, cleanup, waitFor } from '@testing-library/react';
 import React from 'react';
 import Title from '../Title';
 import MockAdapter from "axios-mock-adapter";
-import api, { baseURL } from "@pages/api/api";
 import { titleMock } from '../../../mock/titleMock';
+import api, { baseURL } from '@pages/api/api';
 
 const mock = new MockAdapter(api, { onNoMatch: "throwException" });
 

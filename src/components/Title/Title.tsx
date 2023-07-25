@@ -1,3 +1,4 @@
+'use client'
 import React, {useState, useEffect} from 'react'
 import { useFruits } from '../../hook/useFruits';
 
@@ -11,7 +12,7 @@ const Title = () => {
   }
 
   return (
-    <div>Olá mundo</div>
+    <div className=''>Olá mundo</div>
   )
 }
 

@@ -21,15 +21,16 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["src/app/components/*"],
+      "@components/*": ["src/components/*"],
       "@context/*": ["src/context/*"],
       "@hooks/*": ["src/hooks/*"],
       "@links/*": ["src/links/*"],
       "@types/*": ["src/types/*"],
       "@lib/*": ["src/lib/*"],
-      "@pages/*": ["src/app/pages/*"],
+      "@pages/*": ["src/pages/*"],
       "@utils/*": ["src/utils/*"],
-      "@mock/*": ["src/mock/*"]
+      "@mock/*": ["src/mock/*"],
+      "@styles/*": ["src/styles/*"]
     }
   },
   "include": [

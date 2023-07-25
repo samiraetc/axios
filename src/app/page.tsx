@@ -1,5 +1,4 @@
-import Title from 'src/app/components/Title/Title'
-
+import Title from 'src/components/Title/Title'
 
 export default function Home() {
   return (
